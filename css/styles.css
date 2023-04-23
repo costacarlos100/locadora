@@ -1,0 +1,98 @@
+*{ margin:0; padding:0; font-size:100%;font-family: 'Open Sans', sans-serif; font-weight:normal; box-sizing:border-box; border:none; outline:none;}
+img{max-width:100%;}
+ul{list-style:none}
+a{text-decoration:none;}
+h2{font-size:1.5em; color:#333;}
+p{ font-size:1em; color:#777;}
+
+/*Cabeçalho*/
+header.cabecalho{ width:100%; float:left; padding:50px 8%; background-color:#13c7ae;}
+h1.logo a{width:221px; height:48px; float:left; font-size:0;}
+header.cabecalho form{width:30%; float: right; cursor: pointer; margin:0;}
+header.cabecalho input[type="text"] {width:80%; float:left; padding:15px 10px; border-radius:5px 0 0 5px;}
+header.cabecalho input[type="submit"]{width:20%; float:right; padding:15px 10px; background-color:#0cae98; color:#fff; border-radius:0 5px 5px 0;}
+
+/*Menu de Navegação*/
+nav.menu{ width:100%; float:left; background-color:#111; padding:18px 8%;}
+nav.menu li{ float:left;}
+nav.menu li a{ color:#9d9d9d; margin-right:25px;}
+nav.menu li a:hover{ color:#ffffff;}
+nav.menu li img{width:20px; float:left; margin-right:5px;}
+
+/*Login*/
+section.login form{width:100%; float:left; margin-top:10px; display:block; clear:both;}
+section.login input{width:40%; margin-right:1%; padding:15px 10px; border:1px solid #ffffff; border-radius:5px; color:#fff; background-color:initial; float:left;}
+section.login button{width:18%; background-color:#fff; border-radius:5px; padding:15px 10px; float:right; cursor:pointer;}
+section.login input#btnLogar{width:17%; background-color:#fff; border-radius:5px; padding:15px 10px; float:right; color:#000;}
+section.login{width:100%; float:left; background-color:#111; padding:50px 8%; margin-top:40px;}
+section.login h3{font-size:1.8em; color:#fff;}
+section.login p{font-size:1.2em; color:#fff;}
+
+/*Formulario De Cadastro*/
+div.formCadastro{float:left; width:90%; margin:20px 0;}
+div.formCadastro label{font-weight:bold; margin-left:1%;}
+div.formCadastro input{width:40%; margin-right:1%; padding:6px 0; border:1px solid #000; border-radius:5px; color:#fff; margin-left:2%; color:#000;}
+div.formCadastro label label{color:#f00; margin:0;}
+div.formCadastro input:focus{ border:1px solid #d52424;}
+div.formCadastro input[type="submit"]{float:left; width:18%; background-color:#777; border-radius:5px; padding:15px 0;}
+div.formCadastro input[type="reset"]{float:left; width:18%; background-color:#777; border-radius:5px; padding:15px 0;}
+
+/*Cadastro Pagina*/
+h1.h1Cad{font-size:20pt; font-weight:bold; text-align:center; margin-bottom:250px;}
+h3.usuario{color:#fff; float:right;}
+a.usuario{color:#bbb; float:right; margin-left:5px;}
+a.usuario:hover{color:#fff; float:right; margin-left:5px;}
+
+/*Principal*/
+main.principal{width:100%; height:100%;}
+main.principal div.btnFilmes{width:200px; float:left; }
+main.principal fieldset{width:150px; border:2px solid #000; margin-left:10%; border-radius:5px;}
+main.principal fieldset legend{font-weight:bold; text-align:center; margin:0 auto;}
+#frase{margin-bottom:20px;}
+
+div.filmesOrdem{border:1px solid #000;width:30%;height:250px;float:left;margin-bottom:40px; margin-left:30px; border-radius:5px; display:block;}
+div.filmesOrdem h3{ margin-bottom:2%; overflow:hidden;}
+div.filmesOrdem h3 span{ font-weight:bold; }
+div.filmesOrdem h3 a{ font-weight:bold; font-size:13pt; color:#ff0000;}
+div.filmesOrdem img{ width:150px; }
+div.filmesOrdem img.mais{ width:10px; }
+div.foto{ border:1px solid #000; float:left; }
+
+/*Pagina Administrativa*/
+h2.userLog{text-align:center;}
+input.btnAdmn{ width:200px; height:50px; background-color:#333;border-radius:5px; color:#fff; margin-bottom:10px; box-shadow:0 5px 0  #000;}
+input.btnAdmn:hover{background-color:#9d9d9d; color:#000; }
+input.btnAdmn:active{position:relative; top:5px; box-shadow:none;}
+input.btnAlg{ width:200px; height:50px; background-color:#333;border-radius:5px; color:#fff; float:right; top:100px;  margin-top:30%;}
+input.btnAlg:hover{background-color:#9d9d9d; color:#000; box-shadow:0 0 10px #000; }
+
+
+div.ClienteInfo{border:1px solid #000;width:40%;height:300px;float:left;margin-bottom:50px; margin-left:30px; border-radius:5px; display:block;}
+div.ClienteInfo h3{ overflow:hidden; float:center; }
+div.ClienteInfo h3 span{ font-weight:bold; }
+div.ClienteInfo img{ width:222px; border-radius:5px;}
+div.fotoCliente{ float:left; }
+
+/*Botões De Alugar e Cadastro*/
+div.butoes{float:left; }
+a.btnAluga,input.btnAluga{ font-family:arial; font-size:14px; text-transform:uppercase; font-weight:700; border:none; padding:10px; margin-left:5px; border-radius:5px; }
+
+a.btn-green,input.btn-green{ background:#17a08d; color:#fff;}
+a.btn-green,input.btn-green:hover{ background:#167064; color:#fff; }
+a.btn-green,input.btn-green:active{ position:relative; top:5px; background:#167064; color:#fff; }
+
+input.btn-red{ background:#d81a47; color:#fff; }
+input.btn-red:hover{ background:#bd193f; color:#fff; }
+input.btn-red:active{ position:relative; top:5px; background:#bd193f; color:#fff; }
+
+/*Filmes Alugados*/
+h2.filmesAlug{text-align:center; margin-bottom:10px;}
+div.filmesAlugados fieldset{width:50%; margin:0;}
+
+/*Informações Do Filmes*/
+div.infoFilme{width:70%; border:1px solid #000; display:inline-block; margin-top:5px; border-radius:5px;}
+div.infoFilme img{float:left; border-radius:5px; margin-right:5px; display:block; width:400px;}
+div.infoFilme h3{margin-bottom:5px;}
+div.infoFilme h3 label{font-weight:bold; font-size:13pt;}
+
+h1.topFilmes{font-size:30px; font-weight:900; margin-bottom:5px; display:inline-block; padding-bottom:20px; }
